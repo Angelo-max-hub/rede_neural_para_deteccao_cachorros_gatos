@@ -33,7 +33,7 @@ poderia aprender isso com um tempo de estudo e pesquisa dedicado.
 ![Visualizaçãodedados](imagens/visualizacao_de_exemplos_do_dataset.png "Visualização de
 dados")
 
-Apesar do instruído pela Dio baixar datasets de diferentes fontes recomendadas por ela,
+Apesar do instruído pela Dio ser baixar datasets de diferentes fontes recomendadas por ela,
 decidi usar a API integrada para download e gerenciamento de datasets que o tensorflow
 possui (o tensorflow_datasets). Isso exigiu que eu estudasse seu uso, porém ainda acho
 menos extressante do que baixar e gerenciar datasets manualmente.
