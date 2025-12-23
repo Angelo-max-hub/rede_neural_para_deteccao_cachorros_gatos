@@ -66,7 +66,7 @@ do dataset tinham o formato (224, 224, 3), sem dimenção para batchs.
 
 Criei a função a seguir para corrigir isso:
 ```
-ef redimensiona_img(img, label):
+def redimensiona_img(img, label):
   image = tf.image.resize(img, (224, 224))
   image = tf.cast(image, tf.float32) / 255.0
   label = tf.cast(label, tf.float32)
